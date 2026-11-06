@@ -10,7 +10,7 @@ app.use(express.json());
 // 정확한 주소 및 고정 좌표 설정
 const LOCATIONS = {
   HOME: { name: '디에이치방배 101동', lat: 37.4851, lng: 126.9904, address: '서울특별시 서초구 서초대로 50' },
-  OFFICE: { name: '삼성화재 본사 사옥', lat: 37.4965, lng: 127.0268, address: '서울특별시 서초구 서초대로74길 14' }
+  OFFICE: { name: '삼성화재 본사 사옥', lat: 37.4958, lng: 127.0267, address: '서울특별시 서초구 서초대로74길 14' }
 };
 
 // 실시간 대중교통 경로 조회 API 엔드포인트
